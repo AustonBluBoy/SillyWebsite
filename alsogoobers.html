@@ -1,0 +1,117 @@
+<!doctype html>
+
+<html>
+
+<head>
+<title> Hey guys!! </title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sniglet, sans-serif;
+}
+
+
+header {
+  background-color: #18b2ff;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+}
+
+/* Create two columns/boxes that floats next to each other */
+nav {
+  float: left;
+  width: 15%;
+  height: 700px; /* only for demonstration, should be removed */
+  background: #ccc;
+  padding: 20px;
+}
+
+/* Style the list inside the menu */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+article {
+  float: left;
+  padding: 20px;
+  width: 70%;
+  background-color: #f1f1f1;
+  height: 700px; /* only for demonstration, should be removed */
+}
+
+/* Clear floats after the columns */
+section::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Style the footer */
+footer {
+  background-color: #777;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+
+/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+@media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
+}
+</style>
+</head>
+<body>
+<header>
+<h1> The Goober Page </h1>
+</header> 
+
+<section>
+  <nav>
+    <ul>
+      <li><a href="index.html">Goober</a></li>
+      <li><a href="alsogoobers.html">Also Goober</a></li>
+      <li><a href="fontsize.html">Even more Goober</a></li>
+	  <li><a href="bee.html">Bee</a></li>
+    </ul>
+  </nav>
+  
+    <article>
+    <h1>Welcome to the [Section 2]</h1>
+	<p> Hello this is section 2 enjoy your stay. </p>	
+
+  </article>
+</section>
+
+<footer>
+  <p>Goobers have stopped here :3</p>
+</footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</html>
