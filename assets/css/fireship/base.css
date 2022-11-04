@@ -1,11 +1,11 @@
-@font-face {
+/* @font-face {
     font-family: 'UbuntuMonospaced';
     src: url('/assets/fonts/UbuntuMono-Regular.ttf') format('truetype');
-}
+} */
 
 body {
     color: #fff;
-    font-family: UbuntuMonospaced;
+    /* font-family: UbuntuMonospaced; */
 }
 
 .card {
