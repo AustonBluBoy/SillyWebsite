@@ -1,11 +1,10 @@
 function runWhenDoneLoading() {
     var iframes = document.getElementsByClassName('latestVideoEmbed');
-    videoID = "";
     for (var i = 0, len = iframes.length; i < len; i++) {
         convertToLink(iframes[i]);
     }
 }
-var videoID;
+
 document.addEventListener('DOMContentLoaded', runWhenDoneLoading);
 var reqURL = "https://api.rss2json.com/v1/api.json?rss_url=" + encodeURIComponent("https://www.youtube.com/feeds/videos.xml?channel_id=");
 
@@ -26,5 +25,4 @@ function setiframe(iframe, vidID) {
 
 function convertToLink(iframe) {
     setVideoID(iframe);
-    var thumbnailReqURL = "https://img.youtube.com/vi/" + videoID + "/maxresdefault.jpg";
 }
