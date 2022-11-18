@@ -14,36 +14,49 @@
 <meta name="author" content="AustonBluBoy" />
 </head>
 <body>
-<header>
-<h1> The Goober Site</h1>
-</header> 
 
-	<div class="w3-bar w3-black">
-		<a href="index.html" class="w3-bar-block w3-button">Home</a> 
-		<a href="formtest.html" class="w3-bar-block w3-button">Form</a>
-		<a href="silly website.html" class="w3-bar-block w3-button">Silly Button</a>
-	</div> 
-	
-<section>
-  <nav>
-		<ul>
-			<li><a href="index.html">Goober</a></li>
-			<li><a href="alsogoobers.html">Also Goober</a></li>
-			<li><a href="fontsize.html">Even more Goober</a></li>
-			<li><a href="bee.html">Bee</a></li>
-		</ul>
-  </nav>
-  
-    <article>
-    <h1>Hello, Goober!</h1>
-	<p> Welcome to my website for goobers! The website by goobers, for goobers </p>	
-    <img src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/58cf83ba-9024-4481-99b0-eb43c14b1209/d2m416x-0faf036d-07a7-4279-bf20-444de496f4e8.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzU4Y2Y4M2JhLTkwMjQtNDQ4MS05OWIwLWViNDNjMTRiMTIwOVwvZDJtNDE2eC0wZmFmMDM2ZC0wN2E3LTQyNzktYmYyMC00NDRkZTQ5NmY0ZTguanBnIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.FwYF7EeqxJNwiolJF6DaTQ2EyAAWhCKNd7J2NxYL46s" alt="goober"> 
-	<br>
-	<br>
-	<br>
+	<header>
+	<h1> The Goober Site</h1>
+	</header> 
 
+		<div class="w3-bar w3-black">
+			<a href="index.html" class="w3-bar-block w3-button">Home</a> 
+			<a href="formtest.html" class="w3-bar-block w3-button">Form</a>
+			<a href="goobers.html" class="w3-bar-block w3-button">Goobers</a>
+			<a href="silly website.html" class="w3-bar-block w3-button">Silly Button</a>
+			<span class="w3-bar-block w3-button" onclick="openNav()">More...</span>
+		</div> 
+
+<div id="main">
+			<article>
+				<h1>Hello, Goober!</h1>
+					<p style="text-indent:35px;">Welcome to my website for goobers! The website by goobers, for goobers </p>	
+					<p style="text-indent:35px;"><img src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/58cf83ba-9024-4481-99b0-eb43c14b1209/d2m416x-0faf036d-07a7-4279-bf20-444de496f4e8.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzU4Y2Y4M2JhLTkwMjQtNDQ4MS05OWIwLWViNDNjMTRiMTIwOVwvZDJtNDE2eC0wZmFmMDM2ZC0wN2E3LTQyNzktYmYyMC00NDRkZTQ5NmY0ZTguanBnIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.FwYF7EeqxJNwiolJF6DaTQ2EyAAWhCKNd7J2NxYL46s" alt="goober"> </p>
+	<br>
+	<br>
+	<br>
   </article>
-</section>
+</div>
+
+<div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+			<a href="index.html">Goober</a>
+			<a href="alsogoobers.html">Also Goober</a>
+			<a href="fontsize.html">Even more Goober</a>
+			<a href="bee.html">Bee</a>
+</div>
+
+<script>
+function openNav() {
+  document.getElementById("mySidenav").style.width = "250px";
+  document.getElementById("main").style.marginLeft = "250px";
+}
+
+function closeNav() {
+  document.getElementById("mySidenav").style.width = "0";
+  document.getElementById("main").style.marginLeft= "0";
+}
+</script>
 
 <footer>
   <p>Goobers have stopped here :3</p>
