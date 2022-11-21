@@ -1,0 +1,15 @@
+/* Create two columns/boxes that floats next to each other */
+nav {
+  float: left;
+  width: 15%;
+  min-height: 100%;
+  min-height: 100vh;
+  background: #ccc;
+  padding: 20px;
+}
+
+/* Style the list inside the menu */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
