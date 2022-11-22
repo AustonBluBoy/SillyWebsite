@@ -113,8 +113,9 @@ section::after {
 /* Style the footer */
 footer {
   position: fixed;
-  right: 0;bottom:0;left:0;
-  background-color: #777;
+  left:0;bottom:0;
+  width:100%;
+  background-color: rgba(90, 97, 110, 0.3);
   padding: 10px;
   text-align: center;
   color: white;
