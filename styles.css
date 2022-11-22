@@ -60,8 +60,8 @@ header {
   float: left;
   left: 0;
   width: 0;
-  min-height: 100%;
-  min-height: 100vh;
+  min-height: 700px;
+  max-height: 100%;
   background: #ccc;
   overflow-x: hidden;
   transition: 0.5s;
@@ -100,7 +100,6 @@ article {
   margin: auto 0;
   float: left;
   padding: 20px 0px 10px 100px;
-  height: 65%;
   height: 700px;
 }
 
