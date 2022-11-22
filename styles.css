@@ -60,7 +60,7 @@ header {
   float: left;
   left: 0;
   width: 0;
-  max-height: 100%;
+  min-height: 100%;
   min-height: 100vh;
   background: #ccc;
   overflow-x: hidden;
@@ -88,13 +88,10 @@ header {
   font-size: 36px;
   margin-left: 50px;
 }
-
-<<<<<<< HEAD
-=======
+		
 #main {
   transition: margin-left .5s;
 }
->>>>>>> dea167a40edad8fb3f0f641a6db263b9d87ef4a8
 @media screen and (max-height: 450px) {
   .sidenav {padding-top: 15px;}
   .sidenav a {font-size: 4px;}

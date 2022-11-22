@@ -34,7 +34,6 @@
 .card:hover {
     box-shadow: rgba(2, 8, 20, 0.1) 0px 0.35em 1.175em, rgba(2, 8, 20, 0.08) 0px 0.175em 0.5em;
     transform: translateY(-3px) scale(1.1);
-<<<<<<< HEAD
 }
 
  /* If on mobile turn make it fit or something lol - makes the three columns stack on top of each other instead of next to each other */
