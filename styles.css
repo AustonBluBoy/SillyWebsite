@@ -17,13 +17,8 @@ header {
   color: white;
 }
 
-<<<<<<< HEAD
 
 
-
-
-=======
->>>>>>> dea167a40edad8fb3f0f641a6db263b9d87ef4a8
  /* If on mobile turn make it fit or something lol - makes the three columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 500px) {
   .column {
@@ -108,11 +103,8 @@ article {
   margin: auto 0;
   float: left;
   padding: 20px 0px 10px 100px;
-<<<<<<< HEAD
   height: 65%;
-=======
   height: 700px;
->>>>>>> dea167a40edad8fb3f0f641a6db263b9d87ef4a8
 }
 
 /* Clear floats after the columns */

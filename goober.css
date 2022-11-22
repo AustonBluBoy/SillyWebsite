@@ -39,9 +39,9 @@
 
  /* If on mobile turn make it fit or something lol - makes the three columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 500px) {
-  .column {
-    width: 100%;
-  }
+	.column {
+		width: 100%;
+	}
 } 
 
 /* Extra small devices (phones, 600px and down) */
@@ -77,6 +77,4 @@
 	.card {
 		scale: 95%;
 	}
-=======
->>>>>>> dea167a40edad8fb3f0f641a6db263b9d87ef4a8
 }
